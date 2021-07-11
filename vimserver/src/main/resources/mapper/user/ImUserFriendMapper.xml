@@ -5,7 +5,7 @@
         <result column="id" property="id"/>
         <result column="name" property="name"/>
         <collection property="userList" ofType="com.v.im.entity.ImUser">
-            <result column="u_id" property="id"/>
+            <result column="u_id" property="id" />
             <result column="u_name" property="name"/>
             <result column="u_avatar" property="avatar"/>
             <result column="u_sign" property="sign"/>

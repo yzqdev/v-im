@@ -25,6 +25,7 @@ public class ImChatGroupUser implements Serializable {
     /**
      * 群id
      */
+
     private String chatGroupId;
 
     /**

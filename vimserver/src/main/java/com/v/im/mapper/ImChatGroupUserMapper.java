@@ -2,6 +2,7 @@ package com.v.im.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.v.im.entity.ImChatGroupUser;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
@@ -11,6 +12,7 @@ import com.v.im.entity.ImChatGroupUser;
  * @author 乐天
  * @since 2018-10-28
  */
+@Mapper
 public interface ImChatGroupUserMapper extends BaseMapper<ImChatGroupUser> {
 
 }

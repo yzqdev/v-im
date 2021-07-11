@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.v.im.entity.ImChatGroup;
 import com.v.im.entity.ImGroup;
 import com.v.im.entity.ImUser;
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
@@ -17,7 +18,7 @@ import java.util.List;
  * @author 乐天
  * @since 2018-10-07
  */
-@Component
+@Mapper
 @Qualifier("imUserMapper")
 public interface ImUserMapper extends BaseMapper<ImUser> {
 

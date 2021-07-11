@@ -3,6 +3,7 @@ package com.v.im.mapper;
 import com.v.im.entity.ImGroup;
 import com.v.im.entity.ImUserFriend;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
@@ -14,6 +15,7 @@ import java.util.List;
  * @author jobob
  * @since 2018-12-31
  */
+@Mapper
 public interface ImUserFriendMapper extends BaseMapper<ImUserFriend> {
 
     /**
