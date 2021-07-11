@@ -24,7 +24,9 @@ hs_err_pid*
 target/
 .idea/
 logs/
+*.iml
 .settings/
 .project
 .factorypath
 .classpath
+rebel.xml
