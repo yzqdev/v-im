@@ -1,0 +1,54 @@
+2021-07-11 21:52:14.206 [main] INFO  com.VServerApplication - Starting VServerApplication using Java 16.0.1 on yzq-pc with PID 3740 (D:\IdeaProjects\v-im\vimserver\target\classes started by yanni in D:\IdeaProjects\v-im\vimserver)
+2021-07-11 21:52:14.210 [main] INFO  com.VServerApplication - The following profiles are active: dev
+2021-07-11 21:52:17.530 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-11 21:52:17.532 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-11 21:52:18.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 901 ms. Found 0 Redis repository interfaces.
+2021-07-11 21:52:18.992 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2021-07-11 21:52:19.028 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-07-11 21:52:19.031 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-07-11 21:52:19.031 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-07-11 21:52:19.032 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-07-11 21:52:19.033 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-07-11 21:52:19.033 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-07-11 21:52:19.033 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-07-11 21:52:19.083 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-07-11 21:52:19.101 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-07-11 21:52:19.103 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-07-11 21:52:19.639 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8020 (http)
+2021-07-11 21:52:19.650 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8020"]
+2021-07-11 21:52:19.651 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-11 21:52:19.651 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-11 21:52:19.775 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-07-11 21:52:19.775 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5455 ms
+2021-07-11 21:52:20.204 [main] INFO  o.s.security.provisioning.JdbcUserDetailsManager - No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2021-07-11 21:52:20.361 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-07-11 21:52:20.402 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-11 21:53:07.551 [main] INFO  com.VServerApplication - Starting VServerApplication using Java 16.0.1 on yzq-pc with PID 5376 (D:\IdeaProjects\v-im\vimserver\target\classes started by yanni in D:\IdeaProjects\v-im\vimserver)
+2021-07-11 21:53:07.556 [main] INFO  com.VServerApplication - The following profiles are active: dev
+2021-07-11 21:53:10.340 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-11 21:53:10.343 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-11 21:53:11.111 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 750 ms. Found 0 Redis repository interfaces.
+2021-07-11 21:53:11.640 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2021-07-11 21:53:11.665 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-07-11 21:53:11.667 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-07-11 21:53:11.668 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-07-11 21:53:11.669 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-07-11 21:53:11.670 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-07-11 21:53:11.670 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-07-11 21:53:11.670 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-07-11 21:53:11.735 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-07-11 21:53:11.756 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-07-11 21:53:11.758 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-07-11 21:53:12.256 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8020 (http)
+2021-07-11 21:53:12.265 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8020"]
+2021-07-11 21:53:12.266 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-11 21:53:12.267 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-11 21:53:12.373 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-07-11 21:53:12.373 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4727 ms
+2021-07-11 21:53:12.738 [main] INFO  o.s.security.provisioning.JdbcUserDetailsManager - No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2021-07-11 21:53:13.395 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-07-11 21:53:13.429 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
